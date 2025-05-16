@@ -1,689 +1,109 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Zen Detox Phone - Privacy Policy</title><style>
-/* cspell:disable-file */
-/* webkit printing magic: print all background colors */
-html {
-	-webkit-print-color-adjust: exact;
-}
-* {
-	box-sizing: border-box;
-	-webkit-print-color-adjust: exact;
-}
-
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
-@media only screen {
-	body {
-		margin: 2em auto;
-		max-width: 900px;
-		color: rgb(55, 53, 47);
-	}
-}
-
-body {
-	line-height: 1.5;
-	white-space: pre-wrap;
-}
-
-a,
-a.visited {
-	color: inherit;
-	text-decoration: underline;
-}
-
-.pdf-relative-link-path {
-	font-size: 80%;
-	color: #444;
-}
-
-h1,
-h2,
-h3 {
-	letter-spacing: -0.01em;
-	line-height: 1.2;
-	font-weight: 600;
-	margin-bottom: 0;
-}
-
-.page-title {
-	font-size: 2.5rem;
-	font-weight: 700;
-	margin-top: 0;
-	margin-bottom: 0.75em;
-}
-
-h1 {
-	font-size: 1.875rem;
-	margin-top: 1.875rem;
-}
-
-h2 {
-	font-size: 1.5rem;
-	margin-top: 1.5rem;
-}
-
-h3 {
-	font-size: 1.25rem;
-	margin-top: 1.25rem;
-}
-
-.source {
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	padding: 1.5em;
-	word-break: break-all;
-}
-
-.callout {
-	border-radius: 3px;
-	padding: 1rem;
-}
-
-figure {
-	margin: 1.25em 0;
-	page-break-inside: avoid;
-}
-
-figcaption {
-	opacity: 0.5;
-	font-size: 85%;
-	margin-top: 0.5em;
-}
-
-mark {
-	background-color: transparent;
-}
-
-.indented {
-	padding-left: 1.5em;
-}
-
-hr {
-	background: transparent;
-	display: block;
-	width: 100%;
-	height: 1px;
-	visibility: visible;
-	border: none;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
-}
-
-img {
-	max-width: 100%;
-}
-
-@media only print {
-	img {
-		max-height: 100vh;
-		object-fit: contain;
-	}
-}
-
-@page {
-	margin: 1in;
-}
-
-.collection-content {
-	font-size: 0.875rem;
-}
-
-.column-list {
-	display: flex;
-	justify-content: space-between;
-}
-
-.column {
-	padding: 0 1em;
-}
-
-.column:first-child {
-	padding-left: 0;
-}
-
-.column:last-child {
-	padding-right: 0;
-}
-
-.table_of_contents-item {
-	display: block;
-	font-size: 0.875rem;
-	line-height: 1.3;
-	padding: 0.125rem;
-}
-
-.table_of_contents-indent-1 {
-	margin-left: 1.5rem;
-}
-
-.table_of_contents-indent-2 {
-	margin-left: 3rem;
-}
-
-.table_of_contents-indent-3 {
-	margin-left: 4.5rem;
-}
-
-.table_of_contents-link {
-	text-decoration: none;
-	opacity: 0.7;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
-}
-
-table,
-th,
-td {
-	border: 1px solid rgba(55, 53, 47, 0.09);
-	border-collapse: collapse;
-}
-
-table {
-	border-left: none;
-	border-right: none;
-}
-
-th,
-td {
-	font-weight: normal;
-	padding: 0.25em 0.5em;
-	line-height: 1.5;
-	min-height: 1.5em;
-	text-align: left;
-}
-
-th {
-	color: rgba(55, 53, 47, 0.6);
-}
-
-ol,
-ul {
-	margin: 0;
-	margin-block-start: 0.6em;
-	margin-block-end: 0.6em;
-}
-
-li > ol:first-child,
-li > ul:first-child {
-	margin-block-start: 0.6em;
-}
-
-ul > li {
-	list-style: disc;
-}
-
-ul.to-do-list {
-	padding-inline-start: 0;
-}
-
-ul.to-do-list > li {
-	list-style: none;
-}
-
-.to-do-children-checked {
-	text-decoration: line-through;
-	opacity: 0.375;
-}
-
-ul.toggle > li {
-	list-style: none;
-}
-
-ul {
-	padding-inline-start: 1.7em;
-}
-
-ul > li {
-	padding-left: 0.1em;
-}
-
-ol {
-	padding-inline-start: 1.6em;
-}
-
-ol > li {
-	padding-left: 0.2em;
-}
-
-.mono ol {
-	padding-inline-start: 2em;
-}
-
-.mono ol > li {
-	text-indent: -0.4em;
-}
-
-.toggle {
-	padding-inline-start: 0em;
-	list-style-type: none;
-}
-
-/* Indent toggle children */
-.toggle > li > details {
-	padding-left: 1.7em;
-}
-
-.toggle > li > details > summary {
-	margin-left: -1.1em;
-}
-
-.selected-value {
-	display: inline-block;
-	padding: 0 0.5em;
-	background: rgba(206, 205, 202, 0.5);
-	border-radius: 3px;
-	margin-right: 0.5em;
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
-	white-space: nowrap;
-}
-
-.collection-title {
-	display: inline-block;
-	margin-right: 1em;
-}
-
-.page-description {
-	margin-bottom: 2em;
-}
-
-.simple-table {
-	margin-top: 1em;
-	font-size: 0.875rem;
-	empty-cells: show;
-}
-.simple-table td {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table th {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table-header-color {
-	background: rgb(247, 246, 243);
-	color: black;
-}
-.simple-table-header {
-	font-weight: 500;
-}
-
-time {
-	opacity: 0.5;
-}
-
-.icon {
-	display: inline-block;
-	max-width: 1.2em;
-	max-height: 1.2em;
-	text-decoration: none;
-	vertical-align: text-bottom;
-	margin-right: 0.5em;
-}
-
-img.icon {
-	border-radius: 3px;
-}
-
-.user-icon {
-	width: 1.5em;
-	height: 1.5em;
-	border-radius: 100%;
-	margin-right: 0.5rem;
-}
-
-.user-icon-inner {
-	font-size: 0.8em;
-}
-
-.text-icon {
-	border: 1px solid #000;
-	text-align: center;
-}
-
-.page-cover-image {
-	display: block;
-	object-fit: cover;
-	width: 100%;
-	max-height: 30vh;
-}
-
-.page-header-icon {
-	font-size: 3rem;
-	margin-bottom: 1rem;
-}
-
-.page-header-icon-with-cover {
-	margin-top: -0.72em;
-	margin-left: 0.07em;
-}
-
-.page-header-icon img {
-	border-radius: 3px;
-}
-
-.link-to-page {
-	margin: 1em 0;
-	padding: 0;
-	border: none;
-	font-weight: 500;
-}
-
-p > .user {
-	opacity: 0.5;
-}
-
-td > .user,
-td > time {
-	white-space: nowrap;
-}
-
-input[type="checkbox"] {
-	transform: scale(1.5);
-	margin-right: 0.6em;
-	vertical-align: middle;
-}
-
-p {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-.image {
-	border: none;
-	margin: 1.5em 0;
-	padding: 0;
-	border-radius: 0;
-	text-align: center;
-}
-
-.code,
-code {
-	background: rgba(135, 131, 120, 0.15);
-	border-radius: 3px;
-	padding: 0.2em 0.4em;
-	border-radius: 3px;
-	font-size: 85%;
-	tab-size: 2;
-}
-
-code {
-	color: #eb5757;
-}
-
-.code {
-	padding: 1.5em 1em;
-}
-
-.code-wrap {
-	white-space: pre-wrap;
-	word-break: break-all;
-}
-
-.code > code {
-	background: none;
-	padding: 0;
-	font-size: 100%;
-	color: inherit;
-}
-
-blockquote {
-	font-size: 1.25em;
-	margin: 1em 0;
-	padding-left: 1em;
-	border-left: 3px solid rgb(55, 53, 47);
-}
-
-.bookmark {
-	text-decoration: none;
-	max-height: 8em;
-	padding: 0;
-	display: flex;
-	width: 100%;
-	align-items: stretch;
-}
-
-.bookmark-title {
-	font-size: 0.85em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	height: 1.75em;
-	white-space: nowrap;
-}
-
-.bookmark-text {
-	display: flex;
-	flex-direction: column;
-}
-
-.bookmark-info {
-	flex: 4 1 180px;
-	padding: 12px 14px 14px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.bookmark-image {
-	width: 33%;
-	flex: 1 1 180px;
-	display: block;
-	position: relative;
-	object-fit: cover;
-	border-radius: 1px;
-}
-
-.bookmark-description {
-	color: rgba(55, 53, 47, 0.6);
-	font-size: 0.75em;
-	overflow: hidden;
-	max-height: 4.5em;
-	word-break: break-word;
-}
-
-.bookmark-href {
-	font-size: 0.75em;
-	margin-top: 0.25em;
-}
-
-.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
-.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
-.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
-.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
-.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
-.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
-.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
-.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
-.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
-.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
-.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
-.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
-.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.highlight-default {
-	color: rgba(55, 53, 47, 1);
-}
-.highlight-gray {
-	color: rgba(120, 119, 116, 1);
-	fill: rgba(120, 119, 116, 1);
-}
-.highlight-brown {
-	color: rgba(159, 107, 83, 1);
-	fill: rgba(159, 107, 83, 1);
-}
-.highlight-orange {
-	color: rgba(217, 115, 13, 1);
-	fill: rgba(217, 115, 13, 1);
-}
-.highlight-yellow {
-	color: rgba(203, 145, 47, 1);
-	fill: rgba(203, 145, 47, 1);
-}
-.highlight-teal {
-	color: rgba(68, 131, 97, 1);
-	fill: rgba(68, 131, 97, 1);
-}
-.highlight-blue {
-	color: rgba(51, 126, 169, 1);
-	fill: rgba(51, 126, 169, 1);
-}
-.highlight-purple {
-	color: rgba(144, 101, 176, 1);
-	fill: rgba(144, 101, 176, 1);
-}
-.highlight-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.highlight-red {
-	color: rgba(212, 76, 71, 1);
-	fill: rgba(212, 76, 71, 1);
-}
-.highlight-default_background {
-	color: rgba(55, 53, 47, 1);
-}
-.highlight-gray_background {
-	background: rgba(248, 248, 247, 1);
-}
-.highlight-brown_background {
-	background: rgba(244, 238, 238, 1);
-}
-.highlight-orange_background {
-	background: rgba(251, 236, 221, 1);
-}
-.highlight-yellow_background {
-	background: rgba(251, 243, 219, 1);
-}
-.highlight-teal_background {
-	background: rgba(237, 243, 236, 1);
-}
-.highlight-blue_background {
-	background: rgba(231, 243, 248, 1);
-}
-.highlight-purple_background {
-	background: rgba(248, 243, 252, 1);
-}
-.highlight-pink_background {
-	background: rgba(252, 241, 246, 1);
-}
-.highlight-red_background {
-	background: rgba(253, 235, 236, 1);
-}
-.block-color-default {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray {
-	color: rgba(120, 119, 116, 1);
-	fill: rgba(120, 119, 116, 1);
-}
-.block-color-brown {
-	color: rgba(159, 107, 83, 1);
-	fill: rgba(159, 107, 83, 1);
-}
-.block-color-orange {
-	color: rgba(217, 115, 13, 1);
-	fill: rgba(217, 115, 13, 1);
-}
-.block-color-yellow {
-	color: rgba(203, 145, 47, 1);
-	fill: rgba(203, 145, 47, 1);
-}
-.block-color-teal {
-	color: rgba(68, 131, 97, 1);
-	fill: rgba(68, 131, 97, 1);
-}
-.block-color-blue {
-	color: rgba(51, 126, 169, 1);
-	fill: rgba(51, 126, 169, 1);
-}
-.block-color-purple {
-	color: rgba(144, 101, 176, 1);
-	fill: rgba(144, 101, 176, 1);
-}
-.block-color-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.block-color-red {
-	color: rgba(212, 76, 71, 1);
-	fill: rgba(212, 76, 71, 1);
-}
-.block-color-default_background {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray_background {
-	background: rgba(248, 248, 247, 1);
-}
-.block-color-brown_background {
-	background: rgba(244, 238, 238, 1);
-}
-.block-color-orange_background {
-	background: rgba(251, 236, 221, 1);
-}
-.block-color-yellow_background {
-	background: rgba(251, 243, 219, 1);
-}
-.block-color-teal_background {
-	background: rgba(237, 243, 236, 1);
-}
-.block-color-blue_background {
-	background: rgba(231, 243, 248, 1);
-}
-.block-color-purple_background {
-	background: rgba(248, 243, 252, 1);
-}
-.block-color-pink_background {
-	background: rgba(252, 241, 246, 1);
-}
-.block-color-red_background {
-	background: rgba(253, 235, 236, 1);
-}
-.select-value-color-uiBlue { background-color: undefined; }
-.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
-.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
-.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
-.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
-.select-value-color-transparentGray { background-color: undefined; }
-.select-value-color-translucentGray { background-color: undefined; }
-.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
-.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
-.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
-.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
-.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
-.select-value-color-pageGlass { background-color: undefined; }
-.select-value-color-washGlass { background-color: undefined; }
-
-.checkbox {
-	display: inline-flex;
-	vertical-align: text-bottom;
-	width: 16;
-	height: 16;
-	background-size: 16px;
-	margin-left: 2px;
-	margin-right: 5px;
-}
-
-.checkbox-on {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-
-.checkbox-off {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-	
-</style></head><body><article id="17001178-4122-80dd-bb77-cb4ac034f9f9" class="page sans"><header><h1 class="page-title">Zen Detox Phone - Privacy Policy</h1><p class="page-description"></p></header><div class="page-body"><h1 id="17101178-4122-80c4-a679-ff0b58eb229b" class=""><strong>Policy summary:</strong></h1><h3 id="17001178-4122-809b-af1c-df95963db16a" class=""><strong>1. Owner and Data Controller</strong></h3><p id="17001178-4122-803a-bc0c-f6a9b846cea4" class="">Contact: contact.minimalphone@gmail.com</p><p id="17001178-4122-80cb-8d80-ea3e0c50d1dc" class="">Play Store: <a href="https://play.google.com/store/apps/developer?id=DePixel+Zone&amp;hl=en">DePixel Zone</a></p><h3 id="17001178-4122-801e-a306-d2b5e4b77323" class=""><strong>2. How collected Data is used</strong></h3><p id="17001178-4122-80ec-a62b-fba69bca3949" class="">We, as the Data Controller, may use the data we collect only to:</p><ul id="17001178-4122-808e-8717-c728b4992096" class="bulleted-list"><li style="list-style-type:disc">Perform analysis to improve the application stability</li></ul><ul id="17001178-4122-802d-ac54-d9670d3f00fd" class="bulleted-list"><li style="list-style-type:disc">Perform analysis to improve the application features</li></ul><p id="17001178-4122-80f4-83e1-ec68227bc827" class="">Since our application is ad free, we will not use collected data to show personalised advertising.</p><h3 id="17001178-4122-80d4-972f-e118af373f31" class=""><strong>3. Types of Data collected</strong></h3><p id="17001178-4122-80d1-8b44-dcce62c729a3" class="">Among the types of Data that this Application collects, by itself or through the listed Data Processors, there are:</p><ul id="17001178-4122-801d-8d6d-dc9245ee6b1b" class="bulleted-list"><li style="list-style-type:disc">Unique device identifiers</li></ul><ul id="17001178-4122-800d-99d9-d7268099cd18" class="bulleted-list"><li style="list-style-type:disc">Usage Data</li></ul><p id="17001178-4122-80d6-9efa-dccb9fa04aee" class="">Usages Data is stored anonymously, and thus we cannot identify you.</p><p id="17001178-4122-80f6-b890-eea66ad74094" class="">Complete details on each type of Usages Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection. </p><p id="17101178-4122-80ad-8c53-caed14b3b217" class="">
-</p><h1 id="17101178-4122-8025-9a75-fddb6d4f1dde" class=""><strong>Full policy:</strong></h1><p id="17101178-4122-8003-9e5a-f6a0bd760dc0" class="">
-</p><p id="17101178-4122-8041-9e2f-c589089f550a" class=""><strong>Zen Detox Phone</strong>’s (also maybe referred as “We”, “Us”, “Company”) continually try to improve your user experience by giving you the best services and products that you expect. To make your journey with <strong> Zen Detox Phone</strong>’s better, we have written and drafted Privacy Policy that will not only protect your rights but also ensure that we are transparent in our dealings from the beginning. We respect You or the User deeply and hence want to express our commitment in guarding your privacy through well elaborated privacy policy or norms. The primary objective of devising the Privacy Policy is to let you know</p><ul id="17101178-4122-80d3-9c24-c7f2f8e8f562" class="bulleted-list"><li style="list-style-type:disc">Information You give us or choose to give us or Information we collect about you</li></ul><ul id="17101178-4122-80da-b924-d4b3ae2972e5" class="bulleted-list"><li style="list-style-type:disc">Information we get from third parties</li></ul><ul id="17101178-4122-802a-bd0f-d9ad09d45ba5" class="bulleted-list"><li style="list-style-type:disc">Information we collect whilst using our Services</li></ul><p id="17101178-4122-8043-966b-c3e59ce23627" class="">We greatly encourage you to read our Privacy Policy minutely to understand it better. It will make it easier to use our Services and Products and will not leave any dilemma Your Mind. Our Privacy policy governs not only our Website but also our mobile applications built for Android Apps that can be downloaded from Play Store. By choosing to use our services and products you are accepting to adhere to our Privacy policy norms.</p><p id="17101178-4122-8081-a7a7-f0e513434583" class="">After reading the privacy policy, if you still have any queries, kindly send an email to <a href="mailto:contact.minimalphone@gmail.com">contact.minimalphone@gmail.com</a></p><p id="17101178-4122-80d0-8953-c15c74cb50a5" class="">and we will ensure that we answer all or any question that may arise.<strong></strong></p><h2 id="17101178-4122-80d5-a2e7-d120b822cf98" class=""><strong>Information you give us or choose to give us or Information we collect About You</strong></h2><p id="17101178-4122-801c-83f8-e528be4da236" class="">You can access <strong>Zen Detox Phone</strong>’s without any login, which means, we don’t capture any of your personal details. However, this Application collects, by itself or through third parties, there are: Universally unique identifier (UUID); Crash information; device information; Usage Data; Trackers.<br/><br/></p><p id="17101178-4122-80a0-a339-e1dd3fbcfa03" class="">Complete details on each type of usages Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection.</p><p id="17101178-4122-80cb-92e1-e89a00b27c47" class="">In case of Usage Data, collected automatically when using this Application.</p><h2 id="17101178-4122-80ea-a65a-efdc8a39ee38" class=""><strong>Google Analytics for Firebase:</strong></h2><p id="17101178-4122-802e-9e7b-e8245f17fb7f" class="">Google Analytics for Firebase or Firebase Analytics is an analytics service provided by Google LLC or by Google Ireland Limited, depending on how the Owner manages the Data processing.</p><p id="17101178-4122-8035-a1cd-e1d3d7ededbc" class=""><strong>In order to understand Google&#x27;s use of Data, consult </strong><strong><a href="https://www.google.com/policies/privacy/partners/">Google&#x27;s partner policy</a></strong>.</p><p id="17101178-4122-80c4-9cd1-f1a5bd3ef3b6" class="">Firebase Analytics may share Data with other tools provided by Firebase, such as Crash Reporting, Authentication, Remote Config or Notifications. The User may check this privacy policy to find a detailed explanation about the other tools used by the Owner.</p><p id="17101178-4122-8014-9f1b-de4765aab6b2" class="">This Application uses identifiers for mobile devices and technologies similar to cookies to run the Firebase Analytics service.</p><p id="17101178-4122-80fe-a03d-dab0499cca6f" class="">Users may opt-out of certain Firebase features through applicable device settings, such as the device advertising settings for mobile phones or by following the instructions in other Firebase related sections of this privacy policy, if available.</p><p id="17101178-4122-8028-bfae-e726b960ea4d" class="">Personal Data processed: Usage Data.</p><h3 id="17101178-4122-80c7-9513-ed371144af2d" class=""><strong>Firebase Remote Config:</strong></h3><p id="17101178-4122-8069-93ad-f627f23a9e11" class="">Firebase Remote Config is an A/B testing and configuration service provided by Google LLC or by Google Ireland Limited, depending on how the Owner manages the Data processing.</p><p id="17101178-4122-80a2-aca4-c582f4c0f62d" class="">Personal Data processed: various types of Data as specified in the privacy policy of the service.</p><p id="17101178-4122-80a6-8023-d1e264f29342" class=""><strong>It is important to bear in mind that although we have listed a detailed policy mandate, it is upto our discretion to revise the privacy policy from time to time. Hence, we sincerely urge you to read the privacy policy before using our services through a mobile application or through a desktop / laptop.</strong></p><h3 id="17101178-4122-806a-9d20-d042c5845f59" class=""><strong>Crashlytics:</strong></h3><p id="17101178-4122-8063-ab8e-da0bcc1fc19f" class="">Crashlytics is a monitoring service provided by Google LLC or by Google Ireland Limited, depending on how the Owner manages the Data processing.</p><p id="17101178-4122-80fd-9bbf-fd7441162f63" class="">Personal Data processed: Crash information; device information; Universally unique identifier (UUID).</p><h3 id="17101178-4122-808c-b1a2-cbfac5fb8765" class=""><strong>Firebase Performance Monitoring:</strong></h3><p id="17101178-4122-8052-a7c7-d2c683a3320a" class="">Firebase Performance Monitoring is a monitoring service provided by Google LLC or by Google Ireland Limited, depending on how the Owner manages the Data processing.</p><p id="17101178-4122-802e-9a97-cc9f33c049f6" class="">Personal Data processed: various types of Data as specified in the privacy policy of the service.</p><p id="17101178-4122-8085-9221-de9f45fe8aba" class="">
-</p><h2 id="17101178-4122-801b-b735-ebbbc828406a" class="">Use of AccessibilityService API:</h2><p id="17101178-4122-80de-b6f7-eca291551af4" class=""><br/>Zen Detox Phone leverages the AccessibilityService API to provide core features, such as app reminders and app blocking. With your explicit consent, this API enables the app to display a reminder screen when the allocated time for a time-sensitive app has lapsed. These features are designed to help you maintain focus and productivity.<br/></p><p id="17101178-4122-803d-bf96-c5619661d6ca" class="">
-</p><h2 id="17101178-4122-8088-8332-e791132114dd" class="">Privacy and Data Protection:</h2><p id="17101178-4122-8017-b7aa-ea430c467aec" class=""><br/>Your privacy is our top priority. Zen Detox Phone does not collect, store, or share any personal or sensitive data accessed through the AccessibilityService API. The API is used exclusively to support app reminder and app-blocking functionalities, ensuring timely notifications for time-sensitive applications. We are committed to delivering these features while maintaining the highest standards of privacy and security.<br/></p><p id="17101178-4122-805b-8c94-e8d3f11a8e3d" class="">
-</p><p id="17101178-4122-809d-b41b-c28a989a9651" class=""><strong>It is important to bear in mind that although we have listed a detailed policy mandate, it is upto our discretion to revise the privacy policy from time to time. Hence, we sincerely urge you to read the privacy policy before using our services through a mobile application or through a desktop / laptop.</strong></p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy Policy – Zen Detox Phone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background: #f9f9f9;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    h1 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+    p {
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Zen Detox Phone – Privacy Policy</h1>
+  <p><strong>Effective Date:</strong> 14th December, 2024<br>
+     <strong>Contact:</strong> <a href="mailto:contact.minimalphone@gmail.com">contact.minimalphone@gmail.com</a></p>
+
+  <p>At <strong>Zen Detox Phone</strong>, your privacy is our top priority. This Privacy Policy outlines how we collect, use, and protect your data while providing our services on both Android and iOS platforms. By using our mobile applications, you agree to the terms outlined in this policy.</p>
+
+  <h2>1. Data Controller</h2>
+  <p><strong>Owner:</strong> Zen Detox Phone<br>
+     <strong>Email:</strong> <a href="mailto:contact.minimalphone@gmail.com">contact.minimalphone@gmail.com</a></p>
+
+  <h2>2. What Data We Collect</h2>
+  <p>We do <strong>not</strong> require users to log in or provide personal information to use our app. However, the following types of data may be collected either directly by us or through our trusted third-party processors:</p>
+  <ul>
+    <li>Device Information: Model, OS version, device language, etc.</li>
+    <li>Usage Data: App usage patterns, feature interactions, and time spent.</li>
+    <li>Crash Data: Logs and error traces in case the app crashes.</li>
+    <li>Identifiers: UUIDs used for analytics and diagnostics (not linked to personal identity).</li>
+  </ul>
+  <p><em>Note:</em> All data is anonymized and cannot be used to personally identify any user.</p>
+
+  <h2>3. How We Use Your Data</h2>
+  <p>The data we collect is strictly used to:</p>
+  <ul>
+    <li>Improve application stability and performance</li>
+    <li>Enhance user experience and feature functionality</li>
+    <li>Conduct analytics to better understand usage patterns</li>
+  </ul>
+  <p>We <strong>do not</strong> use your data for personalized advertising. The app is fully <strong>ad-free</strong>.</p>
+
+  <h2>4. AccessibilityService API (Android Only)</h2>
+  <p>Zen Detox Phone uses the <strong>AccessibilityService API</strong> to enable core features such as:</p>
+  <ul>
+    <li>App blocking after a time or usage threshold</li>
+    <li>Displaying reminder screens for time-sensitive apps</li>
+  </ul>
+  <p>This service operates <strong>only with your explicit permission</strong> and is solely used to support focus and productivity features.</p>
+  <p><strong>We do not collect, store, or share</strong> any personal or sensitive information accessed via the AccessibilityService API.</p>
+
+  <h2>5. Screen Time API (iOS Only)</h2>
+  <p>Zen Detox Phone uses <strong>Apple's Screen Time API</strong> with your <strong>explicit permission</strong> to enable focus-related features such as:</p>
+  <ul>
+    <li>Time-based app blocking</li>
+    <li>Launch-based app limits</li>
+    <li>Daily usage insights and reports</li>
+  </ul>
+  <p>This same permission is <strong>required</strong> to generate your personalized <strong>usage reports</strong> within the app.</p>
+  <p>All app usage data and block-related information resides <strong>entirely on your device</strong>, and is <strong>stored securely by Apple</strong>. Zen Detox Phone <strong>never has access to this data</strong>, ensuring that your app activity remains <strong>100% private and secure—strictly between you and your iPhone or iPad</strong>.</p>
+
+  <h2>6. Third-Party Services</h2>
+  <p>We use the following services to improve the app experience:</p>
+
+  <h3>Google Firebase (Android & iOS)</h3>
+  <ul>
+    <li><strong>Firebase Analytics:</strong> Usage trends and anonymized app behavior</li>
+    <li><strong>Crashlytics:</strong> Crash diagnostics</li>
+    <li><strong>Remote Config:</strong> Dynamic feature configurations</li>
+    <li><strong>Performance Monitoring:</strong> App speed and responsiveness</li>
+  </ul>
+  <p>Refer to <a href="https://policies.google.com/technologies/partner-sites" target="_blank">Google’s Partner Policy</a> for more information on how your data may be used by Firebase.</p>
+
+  <h2>7. Data Security & Retention</h2>
+  <ul>
+    <li>Data is stored securely using industry best practices.</li>
+    <li>No personally identifiable data is stored or shared.</li>
+    <li>Usage data is retained only as long as needed to improve app functionality.</li>
+  </ul>
+
+  <h2>8. Your Rights</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li>Withdraw permissions at any time via system settings</li>
+    <li>Contact us regarding any concerns or data deletion requests</li>
+  </ul>
+  <p>Email us at <a href="mailto:contact.minimalphone@gmail.com">contact.minimalphone@gmail.com</a> for support.</p>
+
+  <h2>9. Policy Updates</h2>
+  <p>We may update this Privacy Policy from time to time. When we do, we will revise the "Effective Date" at the top of the policy. Please review this page periodically for any changes.</p>
+
+  <p>By using Zen Detox Phone, you agree to this Privacy Policy.</p>
+</body>
+</html>
